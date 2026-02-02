@@ -3,7 +3,7 @@ const statusEl = document.querySelector("#status");
 const refreshBtn = document.querySelector("#refreshBtn");
 
 // Later you will replace this with your real Azure Function endpoint
-const API_URL = "https://your-api-endpoint";
+const API_URL = "/api/StudentCountByCountry";
 
 function setStatus(msg) {
   statusEl.textContent = msg;
